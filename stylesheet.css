@@ -1,0 +1,214 @@
+body {
+	font-family: 'Avenir', Arial;
+}
+
+ul {
+	list-style: none;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+p {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+b {
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.name_logo {
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 14px;
+	display: inline-block;
+}
+
+.navigation_link {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	letter-spacing: 1px;
+}
+
+
+.everything_container {
+	width: 800px;
+	left: 50%;
+	position: relative;
+	margin-left: -400px;
+}
+
+.content_container {
+	width: inherit;
+	padding-top: 200px;
+	font-size: 12px;
+}
+
+.content_block {
+	margin-bottom: 80px;
+}
+
+.content_block h2 {
+	margin-top: 40px;
+}
+
+.fixed_navigation_container {
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 1;
+}
+
+/* about page */
+
+.year_right_align {
+	float: right;
+	display: inline-block;
+}
+
+.about_image {
+	display: inline-block;
+	width: 170px;
+	float: right;
+}
+
+.width_limited {
+	max-width: 500px;
+	display: inline-block;
+}
+
+/* project page */
+
+.project_button {
+	height: 80px;
+	transition: height 1s ease;
+	-webkit-transition: height 1s ease;
+}
+
+.project_button_image {
+	opacity: 0.8;
+	transition: opacity 0.4s ease, margin-top 1s ease;
+	-webkit-transition: opacity 0.4s ease, margin-top 1s ease;
+
+	margin-top: 40px;
+
+  	background-position:right;
+  	background-size: cover;
+}
+
+.project_button_image:hover {
+	opacity: 1.0;
+	transition: opacity 0s;
+	-webkit-transition: opacity 0s;
+}
+
+.project_button_text {
+	/*height: 80px;*/
+	
+	/*width: 200px;*/
+	/*height: inherit;*/
+	/*background-color: rgba(255, 255, 255, 0.8)*/
+}
+
+.project_button_text h2 {
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+
+.project_button_text p {
+	background-color: white;
+	display: inline-block;
+	float: left;
+	clear: left;
+	margin-top: -12px;
+}
+
+.project_button_background {
+	background-color: black;
+}
+
+.project_expand_container {
+	overflow: hidden;
+	max-height: 0px;
+	transition: height 1s;
+	-webkit-transition: height 1s;
+}
+
+.project_block {
+	width: inherit;
+	margin-top: 200px;
+	font-size: 12px;
+}
+
+/* main page */
+
+.main_title_container {
+	text-align: center;
+	margin-top: 100px;
+	padding-left: 8px;
+}
+
+.main_navigation_container {
+	text-align: center;
+	margin-top: 30px;
+	margin-left: -6px;
+}
+
+.main_image_container {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.main_image {
+	width: 400px;
+}
+
+/* contact page */
+.contact_area {
+	background-color: black;
+	color: white;
+	position: absolute;
+	width: 100%;
+	padding-top: 100px;
+	margin-top: 200px;
+	left: 0px;
+}
+
+.contact_area a {
+	color: white;
+}

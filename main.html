@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="shortcut icon" href="icon.png">
+		<script src="expand_action.js"></script>
+	</head>
+
+	<body>
+		
+		<div class="fixed_navigation_container">
+			<div class="everything_container">
+				<div class="name_logo">ANDY WANG</div>
+				<a href="javascript:jump_to_id('about')" class="navigation_link">ABOUT</a>
+				<a href="javascript:jump_to_id('projects')" class="navigation_link">PROJECTS</a>
+				<a href="#contact" class="navigation_link">CONTACT</a>
+				<a href="resume.pdf" class="navigation_link">RESUME</a>
+			</div>
+		</div>
+
+		<div class="everything_container">
+			<div class="content_container">
+				<div id="about" class="content_block">
+					<div class="width_limited">
+						<h1>About</h1>
+						<br>
+						<p>
+							My name is Andy Wang. I am a 20-year-old college student looking for a <b>full-time position</b> in computer science / engineering related fields.
+						</p>
+						<p>
+							I was born in Japan and grew up in China. Now I'm a college student in the US and will be graduating in summer 2015.
+						</p>
+
+					</div>
+					<img class="about_image" src="main.jpg"></div>
+				</div>
+
+				<div class="content_block">
+					<h1>Work Experience</h1>
+					<h2>Facebook<div class="year_right_align">2014.5 - 2014.8</div></h2>
+					<p>
+						Menlo Park, CA<br>
+						Software Engineering Internship
+					</p>
+				</div>
+
+				<div class="content_block">
+					<h1>Education</h1>
+					<h2>Carnegie Mellon University <div class="year_right_align">2012.9 - 2015.6</div></h2>
+					<p>
+						Pittsburgh, PA
+					</p>
+					<p>
+						Bachelor of Science in Computer Science (CS)<br>
+						Double major in Human-Computer Interaction (HCI)<br>
+						Minor in Music
+					</p>
+					<p>
+						GPA: 3.77/4.00
+					</p>
+					<h2>The affiliated high school of peking university <div class="year_right_align">2008.9 - 2012.6</div></h2>
+					<p>
+						Beijing, CHINA
+					</p>
+					<p>
+						High school degree
+					</p>
+					<p>
+						GPA: 3.95/4.00
+					</p>
+				</div>
+
+				<div id="projects" class="project_block">
+					<h1>Projects</h1>
+					<div class="project_button_background">
+						<a href="javascript:show_project('proj_facebook')">
+							<div id="proj_facebook_button_image" class="project_button_image" style="background-image:url(project_cover/facebook.jpg);">
+								<div id="proj_facebook_button" class="project_button">
+									<div id="proj_facebook_button_text" class="project_button_text">
+										<h2 class="project_button_title">Facebook iOS</h2>
+										<p class="project_button_subtitle">Internship Project</p>
+										<p class="project_button_subtitle">2014</p>
+
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div id="proj_facebook" class="project_expand_container">
+						<div class="content_block">
+							<h2>Facebook iOS <div class="year_right_align">2014</div></h2>
+							<h3>Summer Intern Project</h3>
+							<p>
+								I created a survey system in the news feed, on Facebook iOS. The survey system helps advertisers to measure advertisement effectiveness. It is brand new and one of the most complicated feed unit in the app. It is already released to production.
+							</p>
+						</div>
+						<hr>
+					</div>
+
+
+
+					<div class="project_button_background">
+						<a href="javascript:show_project('proj_meetup')">
+							<div id="proj_meetup_button_image" class="project_button_image" style="background-image:url(project_cover/meetup.jpg);">
+								<div id="proj_meetup_button" class="project_button">
+									<div id="proj_meetup_button_text" class="project_button_text">
+										<h2 class="project_button_title">MeetUp</h2>
+										<p class="project_button_subtitle">iOS App</p>
+										<p class="project_button_subtitle">2014</p>
+
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div id="proj_meetup" class="project_expand_container">
+						<div class="content_block">
+							<h2>MeetUp<div class="year_right_align">2014</div></h2>
+							<h3>iOS App</h3>
+							<p>
+								I'm the team leader, designer, and programmer in a team of four. We are creating an iOS app that helps people making appointments with others. We use Obj-C for front-end and Django for back-end
+							</p>
+						</div>
+						<hr>
+					</div>
+
+
+
+					<div class="project_button_background">
+						<a href="javascript:show_project('proj_autosecretary')">
+							<div id="proj_autosecretary_button_image" class="project_button_image" style="background-image:url(project_cover/autosecretary.png);">
+								<div id="proj_autosecretary_button" class="project_button">
+									<div id="proj_autosecretary_button_text" class="project_button_text">
+										<h2 class="project_button_title">Autosecretary</h2>
+										<p class="project_button_subtitle">Application Website</p>
+										<p class="project_button_subtitle">2014</p>
+
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div id="proj_autosecretary" class="project_expand_container">
+						<div class="content_block">
+							<h2>Autosecretary<div class="year_right_align">2014</div></h2>
+							<h3>Application Website</h3>
+							<p>
+								This project is a web system that helps student organizations with daily tasks such as posting schedules, managing absences and excuses, sending email notifications, etc. I was a programmer in a team of five. The system is being used by three student organizations now in CMU. The system is written mainly in Django and AngularJS.
+							</p>
+						</div>
+						<hr>
+					</div>
+
+
+
+					<div class="project_button_background">
+						<a href="javascript:show_project('proj_entropy')">
+							<div id="proj_entropy_button_image" class="project_button_image" style="background-image:url(project_cover/entropy.jpg);">
+								<div id="proj_entropy_button" class="project_button">
+									<div id="proj_entropy_button_text" class="project_button_text">
+										<h2 class="project_button_title">Entropy</h2>
+										<p class="project_button_subtitle">Experimental Personal Website</p>
+										<p class="project_button_subtitle">2014</p>
+
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div id="proj_entropy" class="project_expand_container">
+						<div class="content_block">
+							<h2>Entropy<div class="year_right_align">2014</div></h2>
+							<h3>Experimental Personal Website</h3>
+							<p>
+								I love arts with some computation and math involved, and this project, a sophistically animated personal website, was an attempt to create such a combination. All the text contents on the webpage are disassembled into small particles that move along the page in different speeds. As a result, the particles will combine back to their original forms only if you move your cursor to particular coordinates.
+							</p>
+							<p>
+								Link: <a href="http://eliowang.com/entropy"><b>eliowang.com/entropy</b></a>
+							</p>
+						</div>
+						<hr>
+					</div>
+
+
+
+
+					<div class="project_button_background">
+						<a href="javascript:show_project('proj_floater')">
+							<div id="proj_floater_button_image" class="project_button_image" style="background-image:url(project_cover/floater.jpg);">
+								<div id="proj_floater_button" class="project_button">
+									<div id="proj_floater_button_text" class="project_button_text">
+										<h2 class="project_button_title">Floater</h2>
+										<p class="project_button_subtitle">Term Project</p>
+										<p class="project_button_subtitle">2012</p>
+
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div id="proj_floater" class="project_expand_container">
+						<div class="content_block">
+							<h2>Floater<div class="year_right_align">2012</div></h2>
+							<h3>Term Project</h3>
+							<p>
+								This is a term project created individually in about 3 weeks. It is a game in which a player wave his/her hand in front of a web camera to control a cell-like object called Floater. The task in this game is to let Floater touch other malignant cells in order to cure them. I recommend you to click on the link below and take a look at the graphical/motion design of this game.
+							</p>
+							<p>
+								Video link: <a href="https://www.youtube.com/watch?v=1mPTYKreFMw"><b>Click Here</b></a>
+							</p>
+						</div>
+						<hr>
+					</div>
+
+
+
+					<div class="project_button_background">
+						<a href="javascript:show_project('proj_inficon')">
+							<div id="proj_inficon_button_image" class="project_button_image" style="background-image:url(project_cover/inficon.jpg);">
+								<div id="proj_inficon_button" class="project_button">
+									<div id="proj_inficon_button_text" class="project_button_text">
+										<h2 class="project_button_title">Inficon </h2>
+										<p class="project_button_subtitle">Webcam Bare Hand Gestures Recognition</p>
+										<p class="project_button_subtitle">2011</p>
+
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div id="proj_inficon" class="project_expand_container">
+						<div class="content_block">
+							<h2>Inficon<div class="year_right_align">2011</div></h2>
+							<h3>Webcam Bare Hand Gestures Recognition</h3>
+							<p>
+								This is a gesture recognition system that recognize users' two-bare-hand gestures (drag, pinch, rotation, etc.) using only an average web camera. It also recognizes users' 3D hand positions using two cameras. I made this project during a summer vacation in my high school. Used C++ and OpenCV.
+							</p>
+							<p>
+								The picture above is an ideal I would like to achieve if I could find some wearable technology that is able to show user 3D content right in front of a pair of glasses.
+							</p>
+							<p>
+								Video link: <a href="https://www.youtube.com/watch?v=LpHGoqYPd74"><b>Click Here</b></a>
+							</p>
+						</div>
+						<hr>
+					</div>
+
+
+
+					<div class="project_button_background">
+						<a href="javascript:show_project('proj_divshooter')">
+							<div id="proj_divshooter_button_image" class="project_button_image" style="background-image:url(project_cover/divshooter.png);">
+								<div id="proj_divshooter_button" class="project_button">
+									<div id="proj_divshooter_button_text" class="project_button_text">
+										<h2 class="project_button_title">Div Shooter</h2>
+										<p class="project_button_subtitle">Web Game</p>
+										<p class="project_button_subtitle">2013</p>
+
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div id="proj_divshooter" class="project_expand_container">
+						<div class="content_block">
+							<h2>Div Shooter<div class="year_right_align">2013</div></h2>
+							<h3>2013</h3>
+							<p>
+								This game is made with solely html divs. Hundreds of divs. Moreover, it looks like they are in 3D. It is a shooting game where player claps his hand to shoot and move his head to avoid crashing into the divs. In order to augment the 3D effect, the angle from which the 3D content is shown will change according to the eye positions of a player so that he/she will actually "feel" the 3D more realistically.
+							</p>
+							<p>
+								Link: <a href="http://eliowang.com/divshooter"><b>eliowang.com/divshooter</b></a>
+							</p>
+							<p>
+								Currently only support Google Chrome and Safari. Please allow camera and microphone permission when your browser is asking for it.
+							</p>
+						</div>
+						<hr>
+					</div>			
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="contact_area">
+			<div class="everything_container">
+				<div id="contact" class="content_block">
+					<h1>Contact</h1>
+
+					<h2>Email</h2>
+					<p>andywcmu [at] gmail [dot] com</p>
+
+					<h2>Experimental Personal Website</h2>
+					<p> <a href="http://eliowang.com/entropy">eliowang.com/entropy</a></p>
+					
+					<h2>Instagram</h2>
+					<p><a href="http://instagram.com/andydnandydna">instagram.com/andydnandydna</a></p>
+
+					<h2>Douban</h2>
+					<p><a href="http://site.douban.com/eliosound">site.douban.com/eliosound</a></p>
+				</div>
+			</div>	
+		</div>
+
+	</body>
+</html>
