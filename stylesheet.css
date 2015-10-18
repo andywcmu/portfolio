@@ -136,6 +136,8 @@ hr {
 }
 
 .project_button_text {
+	/*transition: opacity 0.1s ease;
+	-webkit-transition: opacity 0.1s ease;*/
 	/*height: 80px;*/
 	
 	/*width: 200px;*/
