@@ -1,9 +1,5 @@
- @font-face {
- 	font-family: Avenir; src: url('Avenir.ttf');
- }
-
 body {
-	font-family: Avenir, Arial;
+	font-family: 'Avenir', Arial;
 }
 
 ul {
